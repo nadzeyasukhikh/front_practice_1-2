@@ -10,7 +10,7 @@ body {
   justify-content: space-between;
   max-width: 1181px;
   height: 58px;
-  margin: 53px 10vw 117px 10vw;
+  margin: 53px 10% 117px 7%;
 }
 
 .logo-container {
@@ -26,6 +26,11 @@ body {
   font-weight: 700;
   font-size: 14px;
   color: #202020;
+}
+
+.list-container a {
+  text-decoration: none;
+  color: #000000;
 }
 
 .title {
@@ -46,4 +51,49 @@ body {
   width: 100px;
   height: 24px;
   color: #ffffff;
+}
+
+/* content */
+
+.content-container {
+  margin: 0 10% 100px 7%;
+}
+
+.content-container h1 {
+  color: #202020;
+  font-size: 57px;
+  font-weight: 700;
+}
+
+.content-container p {
+  color: #4f4f4f;
+  font-size: 32px;
+  line-height: 161%;
+  max-width: 741px;
+}
+
+.content-container button {
+  border: none;
+  width: 235px;
+  height: 60px;
+  border-radius: 10px;
+  background: #5528ff;
+  color: #fff;
+  font-size: 24px;
+}
+
+/* footer */
+.footer-container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  padding: 20px 10% 20px 7%;
+  justify-content: space-between;
+  background: #f7f7f7;
+}
+
+.socialmedia-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
