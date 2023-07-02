@@ -81,7 +81,55 @@ body {
   color: #fff;
   font-size: 24px;
 }
+/* services */
+.services-container {
+  position: relative;
+  border-top: 1px solid #c2c2c2;
+  padding: 100px 7% 0 7%;
+  margin-bottom: 107px;
+  display: flex;
+  gap: 82px 258px;
+  flex-wrap: wrap;
+}
+.services-container::before {
+  position: absolute;
+  top: -8px;
+  background: #ffffff;
+  padding: 0 39px 0 19px;
+  content: 'OUR SERVICES';
+  color: #c2c2c2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
 
+.service-container {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+
+.service-container img {
+  width: 80px;
+  height: 60px;
+}
+.service-container h2 {
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.service-container p {
+  max-width: 309px;
+  color: #b2b2b2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 /* footer */
 .footer-container {
   box-sizing: border-box;
