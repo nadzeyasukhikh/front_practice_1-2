@@ -56,7 +56,7 @@ body {
 /* content */
 
 .content-container {
-  margin: 0 10% 100px 7%;
+  margin: 0 7% 100px 7%;
 }
 
 .content-container h1 {
@@ -102,6 +102,7 @@ body {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+ 
 }
 
 .service-container {
@@ -144,4 +145,66 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+.clients-container {
+  position: relative;
+  border-top: 1px solid #c2c2c2;
+  padding: 100px 7% 0 7%;
+  margin-bottom: 109px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 62px 150px;
+  
+}
+
+.clients-container::before {
+  margin-left: 7%;
+  background: #ffffff;
+  padding: 0 39px 0 17px;
+  position: absolute;
+  top: -8px;
+  content: 'OUR CLIENTS';
+  color: #c2c2c2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  
+}
+
+.employee-container {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.employee-container img {
+  width: 80px;
+  height: 60px;
+  border-radius: 50%;
+}
+.employees-container {
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 150px;
+  margin-left: 110px;
+  margin-bottom: 100px;
+  
+}
+.employee-container p {
+  color: #B2B2B2;
+font-size: 14px;
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.employee-container h3 {
+  color: #202020;
+font-size: 28px;
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
